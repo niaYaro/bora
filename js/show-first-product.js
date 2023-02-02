@@ -8,19 +8,43 @@ const fourthProductLink = document.getElementById('product-4');
 const fifthProductLink = document.getElementById('product-5');
 const sixthProductLink = document.getElementById('product-6');
 
-firstProductLink.addEventListener ('click', showFirstProduct);
-secondProductLink.addEventListener ('click', showSecondProduct);
-thirdProductLink.addEventListener ('click', showThirdProduct);
-fourthProductLink.addEventListener ('click', showFourthProduct);
-fifthProductLink.addEventListener ('click', showFifthProduct);
-sixthProductLink.addEventListener ('click', showSixthProduct);
-
 const firstProduct = document.querySelector('.first-product-wrapper');
 const secondProduct = document.querySelector('.second-product-wrapper');
 const thirdProduct = document.querySelector('.third-product-wrapper');
 const fourthProduct = document.querySelector('.fourth-product-wrapper');
 const fifthProduct = document.querySelector('.fifth-product-wrapper');
 const sixthProduct = document.querySelector('.sixth-product-wrapper');
+
+firstProductLink.addEventListener ('click', showProduct(firstProduct));
+secondProductLink.addEventListener ('click', showProduct(firstProduct));
+thirdProductLink.addEventListener ('click', showProduct(firstProduct));
+fourthProductLink.addEventListener ('click', showProduct(firstProduct));
+fifthProductLink.addEventListener ('click', showProduct(firstProduct));
+sixthProductLink.addEventListener ('click', showProduct(firstProduct));
+
+function showProduct(product) {
+    return function() {
+        darkenWrapper.classList.add('up');
+        productsBox.classList.add('moving-left');
+        productsBox.classList.remove('moving-right');  
+        product.classList.remove('hidden');
+    }
+}
+
+// For another project
+
+arrayFlag = [
+    {name: ua, img: 'adrersdfsfdsf'},
+    {name: uk, img: 'adrersdfsfdsfdsffsf'},
+];
+
+
+selectFlag(flagName) {
+    const flag = arrayFlag.find(item => item.name === flagName);
+    return flag.img;
+}
+
+//
 
 function showFirstProduct () {
     darkenWrapper.classList.add('up');
@@ -68,7 +92,7 @@ const closingCross = document.querySelector('.product-closing-cross');
 closingCross.addEventListener ('click', closeProduct);
 
 const productsArray = [
-    fifthProduct,
+    firstProduct,
     secondProduct,
     thirdProduct,
     fourthProduct,
@@ -77,13 +101,11 @@ const productsArray = [
 ];
 
 function closeProduct () {
-    console.log('close');
     darkenWrapper.classList.remove('up');
     if (productsBox.classList.contains('moving-left')) {
         productsBox.classList.add('moving-right');
     }
     const activeProduct = productsArray.filter(item => !item.classList.contains('hidden'))
-    console.log('array', activeProduct)
     activeProduct[0].classList.add('hidden')
     // if (firstProduct.classList.contains('hidden')) {
     //     return;
