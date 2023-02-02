@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+:root {
+    --first-text-color: #FFFFFF;
+    --second-text-color: #E0B055;
+    --swiper-theme-color:var(--second-text-color)
+}
+body {
+    color: var(--first-text-color);
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+button {
+    cursor: pointer;
+}
+.general-button:hover {
+    background-color: #FFFFFF;
+    transition: 0.7s;
+}
+a {
+    color: var(--first-text-color);
+    text-decoration: none;
+    position: relative;
+}
+.glogal-wrapper {
+    background-repeat: no-repeat;
+    background-image: url(/img/background-1.png);
+    overflow: hidden;
+    z-index: -20;
+    margin: auto;
+}
+.global-wrapper-darken {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #050402c2;
+    z-index: -10;
+}
+.first-product-background {
+    position: absolute;
+    width: 1506px;
+    height: 1080px;
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0), black);
+    z-index: 10;
+}
+.section-title {
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 45px;
+    padding: 20px 0 40px 0;
+}
+.section-wrapper {
+    margin: 0 15px;
+}
+.second-color {
+    color: var(--second-text-color);
+}
+.hidden {
+    display: none;
+}
+.up {
+    z-index: 100;
+}
+.down {
+    z-index: -40;
+}
+.second-background-image-fullscreen {
+    display: none;
+    position: absolute;
+    z-index: -10;
+    bottom: -550px;
+}
+.second-background-image {
+    bottom: -180px;
+    left: -15px;
+    position: absolute;
+    z-index: -10;
+}
+.moving-left {
+    animation: mymoveleft 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveleft {
+    from {left: 2000px;}
+    to {left: 414px;}
+}
+.moving-right {
+    animation: mymoveright 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymoveright {
+    from {left: 414px;}
+    to {left: 2000px;}
+}
+.products-box {
+    display: none;
+    z-index: 100;
+    width: 1506px;
+    position: absolute;
+    left: 2000px;
+    /* width: 100px; */
+    height: 100%;
+    background-color: #E0B055;
+}

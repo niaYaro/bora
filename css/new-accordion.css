@@ -1,0 +1,73 @@
+.accordion {
+    width: 344px;
+    color: white;
+    background-color: black;
+    margin-bottom: 80px;
+}
+.accordion .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    border-top: 1px solid #444;
+}
+.accordion .container:last-child{
+    border-bottom: 1px solid #444;
+}
+.accordion .label {
+    position: relative;
+    padding: 19px 0 24px 0;
+    width: 285px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.accordion .label::before {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+.accordion .content {
+    position: relative;
+    background: black;
+    height: 0;
+    text-align: justify;
+    width: 344px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.accordion .container.active .content {
+    height: 150px;
+}
+.accordion .container.active .plus .plus-vertical {
+    transform: rotate(90deg);
+    transition: 0.5s;
+}
+.plus {
+    position: relative;
+    padding: 19px 0 24px 0;
+}
+.plus-vertical {
+    position: absolute;
+    background-color: white;
+    width: 1px;
+    height: 34px;
+    right: 30px;
+    top: 14px;
+    transition: 0.5s;
+}
+.plus-horizontal {
+    position: absolute;
+    background-color: white;
+    width: 34px;
+    height: 1px;
+    right: 14px;
+    top: 30px;
+}

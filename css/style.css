@@ -1,0 +1,104 @@
+.accordion-wrapper {
+    max-width: 700px;
+    padding: 10px 0;
+    margin: 0 5px;
+}
+.accordion-wrapper > div {
+    padding: 0;
+    border-bottom: 1px solid #565656;
+    border-top: 1px solid #565656;
+}
+.accordion-wrapper > div div {
+    background: black;
+    transition: 0.4s;
+}
+.accardion-button {
+    border: none;
+    cursor: pointer;
+    padding: 19px 0 24px 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+}
+.accardion-button span:nth-child( 1 ) {
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    transition: 0.4s;
+}
+.accardion-button span:nth-child( 2 ) {
+	position: relative;
+    padding: 0 20px 0 0;
+}
+.accardion-button span:nth-child( 2 )::after , 
+.accardion-button span:nth-child( 2 )::before {
+	content: '';
+	display: block;
+	position: absolute;
+    margin: 12px 0;
+	top: calc( 50% - 1px );
+    left: 0;
+	width: 34px;
+	height: 1px;
+	background: white;
+	transition: 0.4s;
+}
+.accardion-button span:nth-child( 2 )::after {
+	margin: auto;
+    transform: translateY(27px) translateX(-15px);
+}
+.accardion-button span:nth-child( 2 )::before {
+	transform: rotate( 90deg ) translateX(15px) translateY(15px);
+}
+.accardion-button:hover {
+    padding: 15px 0;
+    background: black;
+}
+.accardion-button:hover span:nth-child( 1 ) {
+    color: white;
+}
+.accardion-button:hover span:nth-child( 2 )::after , 
+.accardion-button:hover span:nth-child( 2 )::before {
+    background: #fff;
+}
+.accardion-text {
+    max-height: 0;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.div-active {
+    padding: 5px;
+}
+.button-active {
+    background: black;
+}
+.button-active span:nth-child( 1 ) {
+    color: #fff;
+}
+.button-active span:nth-child( 2 )::after {
+	transform: translateY( 20px );
+	background: #fff;
+}
+.button-active span:nth-child( 2 )::before {
+    height: 0;
+    background: #fff;
+}
+.button-active:hover {
+    padding: 15px 20px;
+}
+.p-active {
+    padding: 20px 20px 15px 20px;
+}

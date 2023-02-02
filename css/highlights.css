@@ -1,0 +1,82 @@
+.highlight-box {
+    border: 1px solid rgba(71, 71, 71, 1);
+    height: 186px;
+    width: 345px;
+    margin-bottom: 5px;
+}
+.dark-filter {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), black);
+    height: 50%;
+    margin-top: 93px;
+}
+.dark-filter h3 {
+    margin: auto;
+    padding: 48px 0 21px 0;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.second-highlight .dark-filter h3 {
+    padding: 30px 0 6px 0;
+}
+.first-highlight {
+    background-repeat: no-repeat;
+    background-image: url(/img/highlights-1.png);
+}
+.second-highlight {
+    background-image: url(/img/highlights-2.png);
+    background-repeat: no-repeat;
+}
+.third-highlight {
+    background-image: url(/img/highlights-3.png);
+    background-repeat: no-repeat;
+}
+.fourth-highlight {
+    background-image: url(/img/highlights-4.png);
+    background-repeat: no-repeat;
+}
+.fifth-highlight {
+    background-image: url(/img/highlights-5.png);
+    background-repeat: no-repeat;
+}
+.sixth-highlight {
+    position: relative;
+    background-image: url(/img/highlights-6.png);
+    background-repeat: no-repeat;
+    margin-bottom: 210px;
+}
+.highlights-box-wrapper {
+    position: relative;
+}
+.highlights-box {
+    margin-bottom: 6px;
+    border: 1px solid rgba(71, 71, 71, 1);
+    background-color: black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), black);
+}
+.highlights-box-image {
+    position: relative;
+}
+.highlights-box-text {
+    position: absolute;
+    top: 144px;
+    width: 100%;
+}
+.highlights-box-text p {
+    margin: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.highlights-title {
+    display: none;
+}
+.fullscreen-highlights-background {
+    display: none;
+}

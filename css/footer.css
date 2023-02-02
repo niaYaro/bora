@@ -1,0 +1,48 @@
+.letter-data {
+    display: flex;
+    position: relative;
+}
+.first-part {
+    left: 15px;
+    position: absolute;
+    top: 1px;
+}
+.second-part {
+    left: 16px;
+    position: absolute;
+    top: 4px;    
+}
+.letter-address {
+    padding: 0 50px;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.phone-data {
+    display: flex;
+}
+.phone-icon {
+    margin: 19px 15px;
+}
+.phone-number {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.copyrights {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 3px 15px 32px 15px;
+}

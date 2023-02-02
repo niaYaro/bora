@@ -1,0 +1,145 @@
+.get-pricing h2{
+    padding-bottom: 31px;
+}
+.get-pricing form {
+    padding-left: 3px;
+}
+.get-pricing-fullscreen-background {
+    display: none;
+}
+.form-input {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 29px;
+}
+.data-box :last-child{
+    /* padding-bottom: 27px; */
+}
+.form-input label{
+    padding: 9px;
+}
+.form-data {
+    font-size: 16px;
+    line-height: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid #444;
+    border-bottom: 1px solid #444;
+    padding: 0;
+    font-family: Montserrat;
+}
+.interested-product {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 29px;
+    border-bottom: 1px solid #444;
+}
+.radio-box {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+}
+.radio-box input {
+    accent-color: var(--second-text-color);
+}
+.radio-box label {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 5px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #444;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 5px;
+    position: relative;
+    background-color: var(--second-text-color);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #444;
+}
+.subscribe {
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 30px 0;
+}
+.checkbox-box {
+    display: flex;
+    justify-content: center;
+}
+.checkbox-box input {
+    width: 20px;
+    height: 20px;
+}
+.checkbox-box label {
+    padding-left: 13px;
+}
+input[type='checkbox']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #444;
+}
+input[type='checkbox']:checked:after {
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    padding: 3px;
+    position: relative;
+    background-color: var(--second-text-color);
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="black" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>');
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #444;
+}
+.subscribe-button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #444 1px solid;
+}
+.subscribe-button {
+    margin: 30px 48px 35px 39px;
+    min-width: 288px;
+    height: 56px;
+    border-radius: 25px;
+    border: var(--second-text-color);
+    background-color: var(--second-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+}

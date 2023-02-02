@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-background {
+    position: absolute;
+    width: 374px;
+    height: 513px;
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0), black);
+}
+.logo-wrapper {
+    padding: 28px 10px 101px 15px;
+    display: flex;
+    align-items: center;
+}
+.logo-part-illy {
+    translate: 0 -10px;
+}
+.logo-part-point {
+    translate: 0 20px
+}
+.logo-part-a {
+    translate: 0 2px;
+    padding: 0 10px 0 0;
+}
+.logo-part-kitchen {
+    padding: 0 0 0 10px;
+    border-left: 1px solid #E0B055;
+}
+.kitchen-string {
+    color: var(--second-text-color);
+    margin: 0;
+}
+.burger-menu {
+    z-index: 10;
+    cursor: pointer;
+    padding: 41px 15px 117px 0;
+    display: flex;
+}
+.menu {
+    display: none;
+    align-items: center;
+    padding-top: 91px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 15;
+    height: fit-content;
+}
+.menu-button {
+    height: fit-content;
+    margin: 0 20px 0 0;
+}
+.contact {
+    height: fit-content;
+    z-index: 15;
+    padding-top: 91px;
+    display: none;
+}
+.contact img {
+    margin: 0 10px 0 0;
+    width: 18px;
+    height: 18px;
+}
+.contact p {
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.contact button {
+    margin: -20px 10px 0 0;
+    width: 155px;
+    height: 55px;
+    border-radius: 25px;
+    background-color: var(--second-text-color);
+}

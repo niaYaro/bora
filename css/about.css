@@ -1,0 +1,89 @@
+.about {
+    position: relative;
+}
+.about .section-title {
+    grid-row: 1;
+    grid-column: 1 / 2;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 110px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.about-brif {
+    padding-bottom: 25px;
+    grid-row: 2;
+    grid-column: 1 / 2;
+    color: var(--second-text-color);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.about-video {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+    position: relative;
+    margin-left: -15px;
+}
+.about-video-poster {
+    position: absolute;
+    z-index: 10;
+    width: 374px;
+    height: 300px;
+}
+.poster-navigation-wrapper {
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 150px;
+    padding: 30px 35px;
+    position: absolute;
+    left: 110px;
+    top: 70px;
+    z-index: 15;
+}
+.about-video-play-icon {
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    border-radius: 150px;
+    padding: 30px 35px;
+    z-index: 15;
+}
+.video-intro {
+    position: absolute;
+    width: 374px;;
+    height: 300px;
+}
+.about-description {
+    margin-top: 325px;
+    grid-row: 3;
+    grid-column: 1 / 2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.about-description-link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: underline;
+}
+.background-element-1 {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: -250px;
+    z-index: -5;
+}
+.background-element-2 {
+    display: none;
+    position: absolute;
+    z-index: -5;
+    top: -150px;
+}

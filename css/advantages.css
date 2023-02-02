@@ -1,0 +1,163 @@
+.advantages h2 {
+    padding: 0;
+}
+.advantages-images-box {
+}
+.advantage {
+    position: relative;
+    min-height: 100px;
+}
+.advantages-poster {
+    width: 805px;
+    height: 404px;
+    border-bottom: 1px solid var(--second-text-color);
+    /* z-index: 400; */
+    /* padding: 50px; */
+}
+.advantages-video {
+    top: 0;
+    left: -154px;
+    width: 805px;
+    height: 405px;
+    padding: 0 155px;
+    position: absolute;
+    z-index: 10;
+}
+.advantages-poster-text {
+    /* background-color: aquamarine; */
+    /* display: flex; */
+    top: 250px;
+    position: absolute;
+    padding: 0 40px;
+}
+.advantages-poster-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.advantages-poster-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 742px;
+    /* padding: 50px; */
+}
+.advantages-poster-brief {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--second-text-color);
+}
+.advantages-poster-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* width: 100%; */
+}
+.advantages-poster-navigation-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.advantages-poster-navigation-icon {
+    margin-left: 21px;
+    padding: 30px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    /* background-color: firebrick; */
+    width: 23px;
+    height: 20px;
+}
+.advantages-icon-image {
+    width: 23px;
+    height: 20px;
+    /* width: 23px;
+    height: 20px; */
+}
+.advantages-hover-text {
+    padding-left: 40px;
+    position: absolute;
+    top: 0;
+    background-color: #b8872cbb;
+    width: 765px;
+    height: 405px;
+    /* z-index: -20; */
+    /* border-bottom: 5px solid black; */
+}
+.hover-image-background {
+    width: 805px;
+    position: absolute;
+    top: 0;
+    /* z-index: -20; */
+}
+.hover-text-title {
+    margin: 0;
+    /* padding: 0; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 75px;
+}
+.hover-text-brief {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 9px;
+}
+.hover-text-main {
+    padding-right: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 40px;
+    /* border-bottom: 1px solid #444; */
+}
+.hover-poster-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-top: 1px solid rgba(255, 255, 255, 0.384);
+    margin-right: 22px;
+    padding-top: 24px;
+}
+.hover-poster-navigation-text {
+    padding-right: 21px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+.hover-poster-navigation-icon {
+    /* background-color: aliceblue; */
+    cursor: pointer;
+    padding: 30px 30px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    width: 23px;
+    height: 20px;
+    background-color: white;
+}
+.hover-icon-image {
+    width: 23px;
+    height: 20px;
+}

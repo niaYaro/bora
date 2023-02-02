@@ -1,0 +1,70 @@
+.swiper-fullscreen {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 675px;
+  overflow: hidden;
+}
+.swiper-fullscreen .swiper-button-prev::after{
+  color: rgba(255, 255, 255, 0.842);
+  position: absolute;
+  top: -50px;
+}
+.swiper-fullscreen .swiper-button-next::after{
+  color: rgba(255, 255, 255, 0.842);
+  position: absolute;
+  top: -50px;
+}
+.swiper-mobile {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.item-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.item-text {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.swiper-fullscreen .swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.295);
+} 
+.swiper-mobile .swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.295);
+} 
+.swiper-fullscreen .swiper-scrollbar .swiper-scrollbar-horizontal {
+  height: 2px;
+}
+.swiper-mobile .swiper-scrollbar .swiper-scrollbar-horizontal {
+  height: 2px;
+}
+.swiper-fullscreen .swiper-scrollbar-drag {
+  background-color: var(--second-text-color);
+}
+.swiper-mobile .swiper-scrollbar-drag {
+  background-color: var(--second-text-color);
+}
+.swiper-mobile .swiper-button-next::after {
+  position: absolute;
+  top: -100px;
+  color: rgba(255, 255, 255, 0.37);
+}
+.swiper-mobile .swiper-button-prev::after {
+  position: absolute;
+  top: -100px;
+  color: rgba(255, 255, 255, 0.37);
+}

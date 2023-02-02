@@ -1,0 +1,19 @@
+.faq {
+    margin-top: 180px;
+    padding-top: 100px;   
+    padding: 0;   
+}
+.faq-title-wrapper {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.arrow-box {
+    display: block;
+}
+.arrow-icon {
+    padding-bottom: 20px;
+}
+.fullscreen-accordion-wrapper {
+    display: none;
+}
