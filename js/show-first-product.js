@@ -107,39 +107,4 @@ function closeProduct () {
     }
     const activeProduct = productsArray.filter(item => !item.classList.contains('hidden'))
     activeProduct[0].classList.add('hidden')
-    // if (firstProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     firstProduct.classList.add('hidden')
-    // }
-    // if (secondProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     secondProduct.classList.add('hidden')
-    // }
-    // if (thirdProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     thirdProduct.classList.add('hidden')
-    // }
-    // if (fourthProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     fourthProduct.classList.add('hidden')
-    // }
-    // if (fifthProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     fifthProduct.classList.add('hidden')
-    // }
-    // if (sixthProduct.classList.contains('hidden')) {
-    //     return;
-    // } else {
-    //     sixthProduct.classList.add('hidden');
-    // }
 }
-// 
-// thirdProductLink.addEventListener ('click', showThirdProduct);
-// fourthProductLink.addEventListener ('click', showFourthProduct);
-// fifthProductLink.addEventListener ('click', showFifthProduct);
-// sixthProductLink.addEventListener ('click', showSixthProduct);
