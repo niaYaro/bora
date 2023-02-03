@@ -31,8 +31,6 @@ function showProduct(product) {
     }
 }
 
-// For another project
-
 arrayFlag = [
     {name: 'ua', img: 'adrersdfsfdsf'},
     {name: 'uk', img: 'adrersdfsfdsfdsffsf'},
@@ -43,8 +41,6 @@ function selectFlag(flagName) {
     const flag = arrayFlag.find(item => item.name === flagName);
     return flag.img;
 };
-
-//
 
 function showFirstProduct () {
     darkenWrapper.classList.add('up');
