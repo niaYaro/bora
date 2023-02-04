@@ -96,7 +96,8 @@
     padding-left: 40px;
     position: absolute;
     top: 0;
-    background-color: #b8872cbb;
+    background-color: #f8f8f8;
+    background-color: #e1b054c0;
     width: 765px;
     height: 405px;
     /* z-index: -20; */
@@ -130,6 +131,7 @@
     padding-bottom: 9px;
 }
 .hover-text-main {
+    /* max-height: 100px; */
     padding-right: 45px;
     font-size: 14px;
     font-weight: 400;
@@ -138,6 +140,10 @@
     text-align: left;
     padding-bottom: 40px;
     /* border-bottom: 1px solid #444; */
+}
+.second-hover-text {
+    padding-bottom: 15px;
+
 }
 .hover-poster-navigation {
     display: flex;

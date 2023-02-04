@@ -1,23 +1,19 @@
-// const posters = document.querySelectorAll('.advantage');
-// const advantagesVideoPlay = document.getElementById('navigation-1');
-// const advantagesVideo = document.querySelector('.advantages-video');
-// advantagesVideoPlay.addEventListener('click', showMovie);
-// posters.forEach(poster => poster.addEventListener('mouseenter', showBrief));
-// posters.forEach(poster => poster.addEventListener('mouseleave', hideBrief));
+const advantagesFirstVideo = document.querySelector('.video-1');
+const advantagesSecondVideo = document.querySelector('.video-2');
+const advantagesThirdVideo = document.querySelector('.video-3');
+const advantagesFourthVideo = document.querySelector('.video-4');
+const advantagesFirstVideoPlay = document.getElementById('navigation-1');
+const advantagesSecondVideoPlay = document.getElementById('navigation-2');
+const advantagesThirdVideoPlay = document.getElementById('navigation-3');
+const advantagesFourthVideoPlay = document.getElementById('navigation-4');
 
-// function showBrief(event) {
-//     const brief = event.target.querySelector('.hover-image-background');
-//     const hover = event.target.querySelector('.advantages-hover-text');
-//     brief.classList.remove('down');
-//     hover.classList.remove('down');
-// }
+advantagesFirstVideoPlay.addEventListener('click', showMovie(advantagesFirstVideo));
+advantagesSecondVideoPlay.addEventListener('click', showMovie(advantagesSecondVideo));
+advantagesThirdVideoPlay.addEventListener('click', showMovie(advantagesThirdVideo));
+advantagesFourthVideoPlay.addEventListener('click', showMovie(advantagesFourthVideo));
 
-// function showMovie() {
-//     advantagesVideo.classList.remove('hidden')
-// }
-
-// function hideBrief(event) {
-//     const index = event.target.dataset.index;
-//     document.getElementById(`brief-${index}`).classList.add('down');
-//     document.getElementById(`hover-${index}`).classList.add('down');
-// }
+function showMovie(video) {
+    return function() {
+        video.classList.remove('hidden');
+    }
+}
