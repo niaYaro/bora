@@ -17,3 +17,14 @@ function showMovie(video) {
         video.classList.remove('hidden');
     }
 }
+
+advantagesFirstVideo.addEventListener('mouseout', hideVideo(advantagesFirstVideo));
+advantagesSecondVideo.addEventListener('mouseout', hideVideo(advantagesSecondVideo));
+advantagesThirdVideo.addEventListener('mouseout', hideVideo(advantagesThirdVideo));
+advantagesFourthVideo.addEventListener('mouseout', hideVideo(advantagesFourthVideo));
+
+function hideVideo(video) {
+    return function() {
+        video.classList.add('hidden');
+    }
+}
