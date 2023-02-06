@@ -52,13 +52,30 @@
     position: relative;
 }
 .highlights-box {
+    height: 191px;
+    position: relative;
     margin-bottom: 6px;
     border: 1px solid rgba(71, 71, 71, 1);
     background-color: black;
     background-image: linear-gradient(rgba(255, 255, 255, 0), black);
 }
+.highlights-box-darken {
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
+    width: 345px;
+}
+.highlights-box-darken img {
+    position: absolute;
+    bottom: 0;
+    width: 342px;
+}
 .highlights-box-image {
     position: relative;
+}
+.highlights-box-image img {
+    height: 191px;
+    /* position: relative; */
 }
 .highlights-box-text {
     position: absolute;
@@ -66,6 +83,8 @@
     width: 100%;
 }
 .highlights-box-text p {
+    position: relative;
+    z-index: 10;
     margin: 0;
     font-size: 13px;
     text-transform: uppercase;
@@ -73,6 +92,7 @@
     line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
+    /* z-index: 150; */
 }
 .highlights-title {
     display: none;
