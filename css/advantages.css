@@ -1,14 +1,10 @@
 .advantages h2 {
     padding: 0;
 }
-.advantages-images-box {
-}
 .advantage {
     position: relative;
     margin-bottom: 15px;
-    /* min-height: 100px; */
 }
-
 .advantage:hover .hover-image-background {
     display: none;
 }
@@ -19,8 +15,6 @@
     width: 345px;
     height: 205px;
     border-bottom: 1px solid var(--second-text-color);
-    /* z-index: 400; */
-    /* padding: 50px; */
 }
 .advantages-poster-bg {
     max-width: 345px;
@@ -37,8 +31,6 @@
 }
 .advantages-poster-text {
     margin-top: 130px;
-    /* background-color: aquamarine; */
-    /* display: flex; */
     top: 0px;
     position: absolute;
     padding-left: 18px;
@@ -46,7 +38,6 @@
 .advantages-poster-title {
     font-size: 20px;
     font-weight: 500;
-    /* line-height: 56px; */
     letter-spacing: 0px;
     text-align: left;
     text-transform: uppercase;
@@ -56,7 +47,6 @@
     justify-content: space-between;
     align-items: center;
     width: 304px;
-    /* padding: 50px; */
 }
 .advantages-poster-brief {
     font-size: 12px;
@@ -71,7 +61,6 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    /* width: 100%; */
 }
 .advantages-poster-navigation-text {
     display: none;
@@ -91,19 +80,15 @@
     background-color: #e1b054c0;
     width: 765px;
     height: 405px;
-    /* z-index: -20; */
-    /* border-bottom: 5px solid black; */
 }
 .hover-image-background {
     display: none;
     width: 805px;
     position: absolute;
     top: 0;
-    /* z-index: -20; */
 }
 .hover-text-title {
     margin: 0;
-    /* padding: 0; */
     font-size: 30px;
     font-weight: 500;
     line-height: 56px;
@@ -122,7 +107,6 @@
     padding-bottom: 9px;
 }
 .hover-text-main {
-    /* max-height: 100px; */
     padding-right: 45px;
     font-size: 14px;
     font-weight: 400;
@@ -130,11 +114,9 @@
     letter-spacing: 0px;
     text-align: left;
     padding-bottom: 40px;
-    /* border-bottom: 1px solid #444; */
 }
 .second-hover-text {
     padding-bottom: 15px;
-
 }
 .hover-poster-navigation {
     display: flex;
@@ -145,7 +127,6 @@
     padding-top: 24px;
 }
 .hover-poster-navigation-text {
-    /* padding-right: 21px; */
     font-size: 14px;
     font-weight: 500;
     line-height: 14px;
@@ -159,34 +140,21 @@
     padding: 13.5px 18px;
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.562);
-    /* background-color: firebrick; */
-    /* width: 23px;
-    height: 20px; */
 }
 .advantages-icon-image {
     width: 10px;
     height: 10px;
-    /* width: 23px;
-    height: 20px; */
 }
 .hover-poster-navigation-icon {
-    /* background-color: aliceblue; */
     cursor: pointer;
-    /* border-radius: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.562); */
     background-color: white;
     margin-bottom: 10px;
     margin-left: 21px;
     padding: 13.5px 18px;
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.562);
-    /* padding: 30px 30px;
-    width: 23px;
-    height: 20px; */
 }
 .hover-icon-image {
     width: 10px;
     height: 10px;
-    /* width: 23px;
-    height: 20px; */
 }
