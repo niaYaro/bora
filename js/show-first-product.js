@@ -16,15 +16,16 @@ const fifthProduct = document.querySelector('.fifth-product-wrapper');
 const sixthProduct = document.querySelector('.sixth-product-wrapper');
 
 firstProductLink.addEventListener ('click', showProduct(firstProduct));
-secondProductLink.addEventListener ('click', showProduct(firstProduct));
-thirdProductLink.addEventListener ('click', showProduct(firstProduct));
-fourthProductLink.addEventListener ('click', showProduct(firstProduct));
-fifthProductLink.addEventListener ('click', showProduct(firstProduct));
-sixthProductLink.addEventListener ('click', showProduct(firstProduct));
+secondProductLink.addEventListener ('click', showProduct(secondProduct));
+thirdProductLink.addEventListener ('click', showProduct(thirdProduct));
+fourthProductLink.addEventListener ('click', showProduct(fourthProduct));
+fifthProductLink.addEventListener ('click', showProduct(fifthProduct));
+sixthProductLink.addEventListener ('click', showProduct(sixthProduct));
 
 function showProduct(product) {
     return function() {
         darkenWrapper.classList.add('up');
+        productsBox.classList.remove('hidden');  
         productsBox.classList.add('moving-left');
         productsBox.classList.remove('moving-right');  
         product.classList.remove('hidden');
@@ -103,4 +104,5 @@ function closeProduct () {
     }
     const activeProduct = productsArray.filter(item => !item.classList.contains('hidden'))
     activeProduct[0].classList.add('hidden')
+    productsBox.classList.add('hidden');
 }

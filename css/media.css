@@ -5,7 +5,7 @@
         height: auto;
     }
     .products-box {
-        display: block;
+        /* display: block; */
     }
     .burger-menu {
         display: none;

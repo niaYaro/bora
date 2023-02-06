@@ -61,6 +61,7 @@
     left: 1615px;
     top: 71px;
     border-radius: 50px;
+    border: var(--second-text-color);
     background-color: var(--second-text-color);
 }
 .fullscreen-title-container {

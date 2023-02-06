@@ -101,12 +101,12 @@ a {
     to {left: 2000px;}
 }
 .products-box {
-    display: none;
+    /* display: none; */
     z-index: 100;
     width: 1506px;
     position: absolute;
     left: 2000px;
     /* width: 100px; */
     height: 100%;
-    background-color: #E0B055;
+    background-color: #0E0F10;
 }
